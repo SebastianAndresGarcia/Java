@@ -1,0 +1,42 @@
+<!--4- LINK en IMAGEN (mapa de bits); TARGETs especiales.
+Añade links en la imagen de principal.html:
+• Las dos imágenes de la izquierda: link a turismo.html en ventana nueva.
+• Las dos imágenes de la derecha: link a instituciones.html en ventana actual completa. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejemplo del uso de marcadores - aprenderaprogramar.com</title>
+    </head>
+    <body>
+
+<a name="arriba"></a>
+
+En esta página puedes ir al <a href="#primero">primer</a> apartado, al <a href="#segundo">segundo</a> o al <a href="#tercero">tercero</a>.
+
+<a name="primero"><h1>Primer apartado</h1></a>
+
+Aquí tienes el primer apartado. Al pulsar sobre el enlace, el navegador habrá saltado a esta parte de la página. Quizás si todo entra en la pantalla no logres ver el efecto pero prueba a poner más texto aquí o hacer zoom y conseguirás verlo.
+
+<a name="segundo"><h1>Segundo apartado</h1></a>
+
+Aquí tienes el segundo apartado. Al pulsar sobre el enlace, el navegador habrá saltado a esta parte de la página. Quizás si todo entra en la pantalla no logres ver el efecto pero prueba a poner más texto aquí o hacer zoom y conseguirás verlo.
+
+<a name="tercero"><h1>Tercer apartado</h1></a>
+
+Aquí tienes el tercer apartado. Al pulsar sobre el enlace, el navegador habrá saltado a esta parte de la página. Quizás si todo entra en la pantalla no logres ver el efecto pero prueba a poner más texto aquí o hacer zoom y conseguirás verlo.
+
+Volver <a href="#arriba">arriba</a>.
+<table border=0 width=450><tr><td align="center"> 
+    <map name="mapa1"> 
+    <area alt="Pulsa para ver la página de mis amigos" shape="CIRCLE" coords="44,36,29" href="#"> 
+    <area alt="Pulsa para ver mi novia" shape="CIRCLE" coords="140,35,31" href="#"> 
+    <area alt="Pulsa para conocer a mi Familia" shape="circle" coords="239,37,30" href="#"> 
+    <area alt="Pulsa para conocer mi trabajo" shape="CIRCLE" coords="336,36,31" href="#"> 
+    </map> 
+    <img src="images/html/mapa1.gif" width="380" height="72" alt="Mapa de imágenes. Pulsa en cada una de los círculos." border="0" usemap="#mapa1"> 
+    <br> 
+    Pulsa en los círculos para acceder a las secciones! 
+    </td></tr></table>
+</body>
+</html>
